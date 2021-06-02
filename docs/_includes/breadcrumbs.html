@@ -1,13 +1,13 @@
 <div id="breadcrumbs">
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 <a href="https://sunarch.github.io">home</a>
- / <a href="/libewb">{{ site.title }}</a>
+ / <a href="/libweb">{{ site.title }}</a>
 {% for crumb in crumbs offset: 1 %}
   {% if forloop.last %}
     / {{ page.title }}
   {% else %}
     {% assign crumb_limit = forloop.index %}
-    / <a href="/catalog{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a>
+    / <a href="/libweb{% for crumb in crumbs offset: 1 limit: crumb_limit %}/{{ crumb }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' }}</a>
   {% endif %}
 {% endfor %}
 </div>
