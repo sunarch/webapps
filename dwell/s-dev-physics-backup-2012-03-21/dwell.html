@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Doppelwellen-Emulator</title>
+		<style type="text/css">
+			input.controls {
+				width: 90px;
+				height: 35px;
+				font-size: 14px;
+				font-weight: bold;
+			}
+			div.skala_line {width:10px; left:50px;}
+			div.skala_txt {
+				width:20px;
+				left: 10px;
+				font-size: 14px;
+				color: black;
+			}
+			div.dot {
+				width: 2px;
+				height: 2px;
+				position: fixed;
+				top: 414px;
+				left: 64px;
+				z-index: 2;
+				background-color: red;
+			}
+			.black {background-color: black;}
+			.fixed {position: fixed;}
+			.vline {width: 2px;}
+			.hline {height: 4px;}
+			.hline_thin {height: 2px;}
+			.right_space {margin-right: 20px;}
+			.samerow {float: left;}
+		</style>
+		<script type="text/javascript" language="JavaScript" src="dwell.js">
+			
+		</script>
+	</head>
+	<body>
+		<br/>
+		<div id="controls">
+			<div style="font-size:25px;font-weight:bold;color:black;">Wellen-Emulator: Überlagerung von Wellen (konstruktive Interferenz)</div>
+			<div style="height:5px;">&#160;</div>
+			<div style="margin-top:50px;">
+				<div class="samerow right_space" style="font-size:14px;font-weight:bold;color:black;">Einstellungen:</div>
+				<div class="samerow right_space" style="">Amplitude s<sub>m</sub> [m]</div>
+				<div class="samerow right_space" style="position:relative;bottom:8px;"><input type="text" value="0.015" class="controls" onBlur="wt.smax = new Number(this.value); wt.smax = wt.smax.valueOf();" /></div>
+				<div class="samerow right_space" style="">Länge des Wellenträgers l<sub>wt</sub> [m]</div>
+				<div class="samerow right_space" style="position:relative;bottom:8px;"><input type="text" value="0.25" class="controls" onBlur="wt.L = new Number(this.value); wt.L = wt.L.valueOf();" /></div>
+				<div class="samerow right_space" style="">Frequenz f<sub>w</sub> [Hz]</div>
+				<div class="samerow right_space" style="position:relative;bottom:8px;"><input type="text" value="5" class="controls" onBlur="wt.f = new Number(this.value); wt.f = wt.f.valueOf(); wt.T = 1/wt.f; document.getElementById('input_T').value = wt.T;" /></div>
+			</div>
+			<div style="height:5px;">&#160;</div>
+			<div style="margin-top:50px;">
+				<div class="samerow right_space" style="">Ausbreitungsgeschwindigkeit c [m/s]</div>
+				<div class="samerow right_space" style="position:relative;bottom:8px;"><input type="text" value="0.25" class="controls" onBlur="wt.c = new Number(this.value); wt.c = wt.c.valueOf();" /></div>
+				<div class="samerow right_space" style="">Wellenlänge {lambda} [m]</div>
+				<div class="samerow right_space" style="position:relative;bottom:8px;"><input type="text" value="0.05" class="controls" onBlur="wt.lambda = new Number(this.value); wt.lambda = wt.lambda.valueOf();" /></div>
+				<div class="samerow right_space" style="">Periodendauer T [s]</div>
+				<div class="samerow right_space" style="position:relative;bottom:8px;"><input type="text" value="0.2" id="input_T" class="controls" onBlur="wt.T = new Number(this.value); wt.T = wt.T.valueOf();" /></div>
+			</div>
+			<div style="height:5px;">&#160;</div>
+			<div style="margin-top:50px;">
+				<div class="samerow right_space" style=""><input type="button" value="Start!" class="controls" id="cb1" onClick="controlbutton('cb1')" /></div>
+				<div class="samerow" style=""><input type="button" value="Reset" class="controls" onClick="wt.reset()" /></div>
+				<div class="samerow right_space" style=""><input type="text" value="Zeit" class="controls" onFocus="this.value=''" onBlur="this.value='Zeit'" /></div>
+				<div class="samerow" style=""><input type="button" value="Jump!" class="controls" onClick="" /></div>
+			</div>
+		</div>
+		<div id="koordinatensystem" style="z-index:1;">
+			<div id="axis_y1" class="fixed black vline" style="height:231px;top:300px;left:60px;"/>
+			<div id="axis_x" class="fixed black hline_thin" style="width:1001px;top:415px;left:63px;"/>
+			<div id="axis_y2" class="fixed black vline" style="height:231px;top:300px;left:1064px;"/>
+			<div id="skala_line_max" class="fixed black hline skala_line" style="top:300px;"/>
+			<div id="skala_line_0" class="fixed black hline skala_line" style="top:414px;"/>
+			<div id="skala_line_min" class="fixed black hline skala_line" style="top:528px;"/>
+			<div id="skala_txt_0" class="fixed skala_txt" style="top:300px;left:30px;">max</div>
+			<div id="skala_txt_0" class="fixed skala_txt" style="top:414px;left:40px;">0</div>
+			<div id="skala_txt_0" class="fixed skala_txt" style="top:528px;left:30px;">min</div>
+		</div>
+		<div id="wellentraegerpunkte" style="z-index:2;">
+			
+		</div>
+		<script type="text/javascript" language="JavaScript">
+			wt.constructor();
+			wt.reset();
+		</script>
+	</body>
+</html>

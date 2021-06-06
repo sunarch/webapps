@@ -1,0 +1,278 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<line x1="40" y1="20" x2="40" y2="250" style="stroke:rgb(0,0,0);stroke-width:2"/>
+	<!-- 10's -->
+		<circle id="1" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="2" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="3" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="4" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="5" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="6" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="7" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="8" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="9" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="10" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 20's -->
+		<circle id="11" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="12" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="13" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="14" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="15" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="16" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="17" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="18" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="19" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="20" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 30's -->
+		<circle id="21" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="22" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="23" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="24" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="25" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="26" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="27" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="28" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="29" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="30" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 40's -->
+		<circle id="31" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="32" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="33" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="34" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="35" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="36" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="37" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="38" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="39" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="40" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 50's -->
+		<circle id="41" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="42" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="43" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="44" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="45" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="46" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="47" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="48" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="49" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="50" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 60's -->
+		<circle id="51" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="52" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="53" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="54" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="55" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="56" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="57" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="58" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="59" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="60" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 70's -->
+		<circle id="61" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="62" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="63" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="64" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="65" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="66" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="67" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="68" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="69" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="70" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 80's -->
+		<circle id="71" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="72" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="73" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="74" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="75" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="76" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="77" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="78" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="79" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="80" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 90's -->
+		<circle id="81" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="82" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="83" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="84" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="85" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="86" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="87" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="88" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="89" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="90" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 100's -->
+		<circle id="91" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="92" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="93" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="94" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="95" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="96" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="97" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="98" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="99" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="100" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 110's -->
+		<circle id="101" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="102" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="103" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="104" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="105" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="106" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="107" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="108" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="109" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="110" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 120's -->
+		<circle id="111" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="112" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="113" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="114" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="115" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="116" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="117" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="118" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="119" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="120" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 130's -->
+		<circle id="121" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="122" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="123" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="124" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="125" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="126" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="127" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="128" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="129" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="130" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 140's -->
+		<circle id="131" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="132" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="133" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="134" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="135" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="136" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="137" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="138" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="139" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="140" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 150's -->
+		<circle id="141" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="142" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="143" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="144" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="145" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="146" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="147" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="148" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="149" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="150" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 160's -->
+		<circle id="151" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="152" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="153" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="154" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="155" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="156" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="157" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="158" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="159" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="160" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 170's -->
+		<circle id="161" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="162" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="163" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="164" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="165" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="166" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="167" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="168" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="169" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="170" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 180's -->
+		<circle id="171" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="172" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="173" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="174" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="175" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="176" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="177" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="178" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="179" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="180" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 190's -->
+		<circle id="181" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="182" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="183" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="184" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="185" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="186" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="187" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="188" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="189" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="190" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 200's -->
+		<circle id="191" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="192" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="193" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="194" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="195" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="196" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="197" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="198" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="199" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="200" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 210's -->
+		<circle id="201" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="202" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="203" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="204" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="205" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="206" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="207" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="208" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="209" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="210" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 220's -->
+		<circle id="211" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="212" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="213" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="214" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="215" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="216" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="217" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="218" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="219" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="220" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 230's -->
+		<circle id="221" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="222" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="223" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="224" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="225" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="226" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="227" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="228" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="229" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="230" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 240's -->
+		<circle id="231" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="232" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="233" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="234" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="235" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="236" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="237" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="238" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="239" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="240" r="'wt.dot_radius'" color="black" cx="" cy="" />
+	<!-- 250's -->
+		<circle id="241" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="242" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="243" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="244" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="245" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="246" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="247" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="248" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="249" r="'wt.dot_radius'" color="black" cx="" cy="" />
+		<circle id="250" r="'wt.dot_radius'" color="black" cx="" cy="" />
+</svg>
