@@ -1,0 +1,6 @@
+td {border: 1pt solid black; padding: 5pt;}
+
+.total:before {content: "total: ";}
+
+.percent {text-align: right;}
+.percent:after {content: " %";}

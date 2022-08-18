@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
 
@@ -27,9 +34,14 @@
     <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    
+    {% for path in page.styles %}
+        <link rel="stylesheet" href="/libweb{{ path }}">
+    {% endfor %}
+    {% for path in page.scripts %}
+        <script src="/libweb{{ path }}"></script>
+    {% endfor %}
   </head>
-  <body>
+  <body{% if page.body_onload %}onLoad="{{ page.body_onload }}"{% endif %}>
     <!--
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     -->
