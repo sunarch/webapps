@@ -9,7 +9,7 @@ styles:
 scripts:
     - "/distribution/distribution.js"
     - "/distribution/predefined.js"
-body_onload: "refresh();"
+body_onload: "eh_load_body();"
 ---
 <!--
 This Source Code Form is subject to the terms of the Mozilla Public
@@ -23,7 +23,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
     <h3>JavaScript is not enabled in your browser!</h3>
 </noscript>
 
-<input type="button" class="refreshbutton" onClick="refresh()" value="Refresh" />
+<input type="button" class="refreshbutton" onClick="eh_button_refresh();" value="Refresh" />
 
 ## Window
 
@@ -121,13 +121,8 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td id="navigator_userAgent"></td>
         </tr>
         <tr>
-            <td>javaEnabled</td>
-            <td>
-                <script type="text/javascript">
-                var javaEnabled = navigator.javaEnabled();
-                document.write("javaEnabled() = "+javaEnabled);
-                </script>
-            </td>
+            <td>javaEnabled()</td>
+            <td id="navigator_javaEnabled_fn"></td>
         </tr>
     </tbody>
 </table>

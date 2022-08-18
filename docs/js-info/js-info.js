@@ -3,7 +3,7 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 
-var jai = {
+const jai = {
     window: [
         "closed",
         "defaultStatus", "status",
@@ -43,21 +43,48 @@ var jai = {
     ]
 };
 
-category_list = Object.keys(jai) // categories
+const category_list = Object.keys(jai);
 
-function refresh() {
+// update calculated values
 
-    for (n1=0; n1<=category_list.length-1; n1=n1+1) {
-        category = category_list[n1];
-        item_list = jai[category];
+function update_all() {
+    update_property_based();
+    update_function_based();
+}
+
+function update_property_based() {
+
+    for (category of category_list) {
+        const item_list = jai[category];
         
-        for (n2=0; n2<=item_list.length-1; n2=n2+1) {
-            item = item_list[n2];
-        
-            tag_id = category + "_" + item;
-            value = eval(category + "." + item);
-            
-            document.getElementById(tag_id).innerHTML = String(value);
+        for (item of item_list) {
+            const value = eval(category + "." + item);
+            write_item_value(category, item, value);
         }
     }
+}
+
+function update_function_based() {
+    const java_enabled = navigator.javaEnabled();
+    document.getElementById('navigator_javaEnabled_fn').innerHTML = java_enabled;
+}
+
+// event handlers - auto
+
+function eh_load_body() {
+    update_all();
+}
+
+// event handlers - buttons
+
+
+function eh_button_refresh() {
+    update_all();
+}
+
+// DOM - write values
+
+function write_item_value(category, item, new_value) {
+    const tag_id = category + "_" + item;
+    document.getElementById(tag_id).innerHTML = new_value;
 }
