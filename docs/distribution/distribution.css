@@ -4,3 +4,8 @@ td {border: 1pt solid black; padding: 5pt;}
 
 .percent {text-align: right;}
 .percent:after {content: " %";}
+
+noscript {
+    font-weight: bold;
+    font-size: x-large;
+}
