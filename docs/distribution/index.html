@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<html lang="en_US">
+    <head>
+        <!-- meta tags (part 1) -->
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+
+        <!-- SEO tags - title -->
+        <title>Distribution | libweb</title>
+        <meta property="og:title" content="Distribution">
+        <meta property="twitter:title" content="Distribution">
+        
+        <!-- SEO tags - locale-->
+        <meta property="og:locale" content="en_US">
+        
+        <!-- SEO tags - description -->
+        <meta name="description" content="calculator tool | sunarch">
+        <meta property="og:description" content="calculator tool | sunarch">
+        
+        <!-- SEO tags - path -->
+        <link rel="canonical" href="https://sunarch.github.io/libweb/distribution/index.html">
+        <meta property="og:url" content="https://sunarch.github.io/libweb/distribution/index.html">
+        
+        <!-- SEO tags - other -->
+        <meta property="og:site_name" content="libweb">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary">
+        <!--<meta name="generator" content="GENERATOR">-->
+
+        <!-- SEO tags - script -->
+        <script type="application/ld+json">
+            {"@context": "https://schema.org",
+             "@type": "WebPage",
+             "description": "calculator tool | sunarch",
+             "headline": "Distribution",
+             "url": "https://sunarch.github.io/libweb/distribution/index.html"
+            }
+        </script>
+
+        <!-- meta tags (part 1) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#157878">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!-- link tags -->
+        <link rel="shortcut icon" href="/images/favicon.ico"/>
+        <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+
+        <!-- styles -->
+        <link rel="stylesheet" href=/libweb/assets/css/cayman.css">
+        <link rel="stylesheet" href="/libweb/distribution/style.css">
+
+        <!-- scripts -->
+        <script src="/libweb/distribution/main.js"></script>
+        <script src="/libweb/distribution/predefined.js"></script>
+    </head>
+    <body onLoad="eh_load_body();">
+        <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+        <header class="page-header" role="banner">
+            <h1 class="project-name">Distribution</h1>
+            <h2 class="project-tagline">calculator tool | sunarch</h2>
+        </header>
+
+        <main id="content" class="main-content" role="main">
+            <!-- BREADCRUMBS -->
+            <div id="breadcrumbs">
+                <a href="https://sunarch.github.io">home</a>
+                / <a href="/libweb/index.html">libweb</a>
+                / Distribution
+            </div>
+
+            <!-- NOSCRIPT -->
+            <noscript>
+                <h3>JavaScript is not enabled in your browser!</h3>
+            </noscript>
+
+            <!-- CONTENT -->
+            <h1>Distribution</h1>
+            <p>
+                <label for="page-count">Available units: </label>
+                <input type="number" name="page-count" id="page-count" onFocus="eh_focus_page_count();" onChange="eh_change_page_count();" />
+                <input type="button" value="Clear entries" onClick="eh_button_clear_entries();" />
+                <input type="button" value="Clear all" onClick="eh_button_clear_all();" />
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Count</th>
+                        <th>Percent</th>
+                        <th>Parts</th>
+                        <th>Units</th>
+                    </tr>
+                    <tr>
+                        <th><span id="total-entries" class="total"></span></th>
+                        <th><span id="total-count" class="total"></span></th>
+                        <th class="percent"><span id="total-percent" class="total percent"></th>
+                        <th><span id="total-parts" class="total"></th>
+                        <th><span id="total-units" class="total"></th>
+                    </tr>
+                </thead>
+                <tbody id="entries-container"></tbody>
+            </table>
+            <p>
+                <input type="button" value="Add entry" onClick="eh_button_add_entry();" />
+            </p>
+            <h2>Predefined entries:</h2>
+            <table>
+                <tbody id="predefs-container">
+                    <tr>
+                        <td>Latin 1-5</td>
+                        <td><input type="button" value="Load" onClick="eh_button_load_predef('latin_1_5');" /></td>
+                        <td><input type="button" value="Add" onClick="eh_button_add_predef('latin_1_5');" /></td>
+                    </tr>
+                    <tr>
+                        <td>Magyar-latin 1-5</td>
+                        <td><input type="button" value="Load" onClick="eh_button_load_predef('magyar_latin_1_5');" /></td>
+                        <td><input type="button" value="Add" onClick="eh_button_add_predef('magyar_latin_1_5');" /></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <footer class="site-footer">
+                <span class="site-footer-owner">
+                    <a href="https://github.com/sunarch/libweb">libweb</a>
+                    is maintained by
+                    <a href="https://github.com/sunarch">sunarch</a>
+                </span>
+                -
+                <span class="site-footer-credits">
+                    Published via
+                    <a href="https://pages.github.com">GitHub Pages</a>
+                </span>
+            </footer>
+        </main>
+    </body>
+</html>

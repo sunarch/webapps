@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+
+<html lang="en_US">
+    <head>
+        <!-- meta tags (part 1) -->
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
+
+        <!-- SEO tags - title -->
+        <title>JavaScript Accessed Information | libweb</title>
+        <meta property="og:title" content="JavaScript Accessed Information">
+        <meta property="twitter:title" content="JavaScript Accessed Information">
+        
+        <!-- SEO tags - locale-->
+        <meta property="og:locale" content="en_US">
+        
+        <!-- SEO tags - description -->
+        <meta name="description" content="testing tool | sunarch">
+        <meta property="og:description" content="testing tool | sunarch">
+        
+        <!-- SEO tags - path -->
+        <link rel="canonical" href="https://sunarch.github.io/libweb/js-info/index.html">
+        <meta property="og:url" content="https://sunarch.github.io/libweb/js-info/index.html">
+        
+        <!-- SEO tags - other -->
+        <meta property="og:site_name" content="libweb">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary">
+        <!--<meta name="generator" content="GENERATOR">-->
+
+        <!-- SEO tags - script -->
+        <script type="application/ld+json">
+            {"@context": "https://schema.org",
+             "@type": "WebPage",
+             "description": "testing tool | sunarch",
+             "headline": "JavaScript Accessed Information",
+             "url": "https://sunarch.github.io/libweb/js-info/index.html"
+            }
+        </script>
+
+        <!-- meta tags (part 1) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#157878">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!-- link tags -->
+        <link rel="shortcut icon" href="/images/favicon.ico"/>
+        <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+
+        <!-- styles -->
+        <link rel="stylesheet" href=/libweb/assets/css/cayman.css">
+        <link rel="stylesheet" href="/libweb/js-info/style.css">
+
+        <!-- scripts -->
+        <script src="/libweb/js-info/main.js"></script>
+    </head>
+    <body onLoad="eh_load_body();">
+        <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+        <header class="page-header" role="banner">
+            <h1 class="project-name">JavaScript Accessed Information</h1>
+            <h2 class="project-tagline">testing tool | sunarch</h2>
+        </header>
+
+        <main id="content" class="main-content" role="main">
+            <!-- BREADCRUMBS -->
+            <div id="breadcrumbs">
+                <a href="https://sunarch.github.io">home</a>
+                / <a href="/libweb/index.html">libweb</a>
+                / JavaScript Accessed Information
+            </div>
+
+            <!-- NOSCRIPT -->
+            <noscript>
+                <h3>JavaScript is not enabled in your browser!</h3>
+            </noscript>
+
+            <!-- CONTENT -->
+            <input type="button" class="refreshbutton" onClick="eh_button_refresh();" value="Refresh" />
+            <h2>Navigator</h2>
+            <table class="jsinfo">
+                <tbody>
+                    <tr>
+                        <td>userAgent</td>
+                        <td id="navigator_userAgent"></td>
+                    </tr>
+                    <tr>
+                        <td>appCodeName</td>
+                        <td id="navigator_appCodeName"></td>
+                    </tr>
+                    <tr>
+                        <td>appName</td>
+                        <td id="navigator_appName"></td>
+                    </tr>
+                    <tr>
+                        <td>appVersion</td>
+                        <td id="navigator_appVersion"></td>
+                    </tr>
+                    <tr>
+                        <td>buildID</td>
+                        <td id="navigator_buildID"></td>
+                    </tr>
+                    <tr>
+                        <td>vendor / vendorSub</td>
+                        <td>
+                            <span id="navigator_vendor" class="item-first"></span>
+                            <span id="navigator_vendorSub" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>product / productSub</td>
+                        <td>
+                            <span id="navigator_product" class="item-first"></span>
+                            <span id="navigator_productSub" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>platform</td>
+                        <td id="navigator_platform"></td>
+                    </tr>
+                    <tr>
+                        <td>oscpu</td>
+                        <td id="navigator_oscpu"></td>
+                    </tr>
+                    <tr>
+                        <td>hardwareConcurrency</td>
+                        <td id="navigator_hardwareConcurrency"></td>
+                    </tr>
+                    <tr>
+                        <td>cookieEnabled</td>
+                        <td id="navigator_cookieEnabled"></td>
+                    </tr>
+                    <tr>
+                        <td>pdfViewerEnabled</td>
+                        <td id="navigator_pdfViewerEnabled"></td>
+                    </tr>
+                    <tr>
+                        <td>doNotTrack</td>
+                        <td id="navigator_doNotTrack"></td>
+                    </tr>
+                    <tr>
+                        <td>language</td>
+                        <td id="navigator_language"></td>
+                    </tr>
+                    <tr>
+                        <td>maxTouchPoints</td>
+                        <td id="navigator_maxTouchPoints"></td>
+                    </tr>
+                    <tr>
+                        <td>onLine</td>
+                        <td id="navigator_onLine"></td>
+                    </tr>
+                    <tr>
+                        <td>webdriver</td>
+                        <td id="navigator_webdriver"></td>
+                    </tr>
+                    <tr>
+                        <td>javaEnabled()</td>
+                        <td id="navigator_javaEnabled_fn"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Screen</h2>
+            <table class="jsinfo">
+                <tbody>
+                    <tr>
+                        <td>width / height</td>
+                        <td>
+                            <span id="screen_width" class="item-first"></span>
+                            <span id="screen_height" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>availWidth / availHeight</td>
+                        <td>
+                            <span id="screen_availWidth" class="item-first"></span>
+                            <span id="screen_availHeight" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>left / top</td>
+                        <td>
+                            <span id="screen_left" class="item-first"></span>
+                            <span id="screen_top" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>availLeft / availTop</td>
+                        <td>
+                            <span id="screen_availLeft" class="item-first"></span>
+                            <span id="screen_availTop" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>colorDepth</td>
+                        <td id="screen_colorDepth"></td>
+                    </tr>
+                    <tr>
+                        <td>pixelDepth</td>
+                        <td id="screen_pixelDepth"></td>
+                    </tr>
+                    <tr>
+                        <td>mozOrientation</td>
+                        <td id="screen_mozOrientation"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Window</h2>
+            <table class="jsinfo">
+                <tbody>
+                    <tr>
+                        <td>name</td>
+                        <td id="window_name"></td>
+                    </tr>
+                    <tr>
+                        <td>opener</td>
+                        <td id="window_opener"></td>
+                    </tr>
+                    <tr>
+                        <td>origin</td>
+                        <td id="window_origin"></td>
+                    </tr>
+                    <tr>
+                        <td>closed</td>
+                        <td id="window_closed"></td>
+                    </tr>
+                    <tr>
+                        <td>defaultStatus</td>
+                        <td id="window_defaultStatus"></td>
+                    </tr>
+                    <tr>
+                        <td>status</td>
+                        <td id="window_status"></td>
+                    </tr>
+                    <tr>
+                        <td>outerWidth / outerHeight</td>
+                        <td>
+                            <span id="window_outerWidth" class="item-first"></span>
+                            <span id="window_outerHeight" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>innerWidth / innerHeight</td>
+                        <td>
+                            <span id="window_innerWidth" class="item-first"></span>
+                            <span id="window_innerHeight" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>pageXOffset / pageYOffset</td>
+                        <td>
+                            <span id="window_pageXOffset" class="item-first"></span>
+                            <span id="window_pageYOffset" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>screenLeft / screenTop</td>
+                        <td>
+                            <span id="window_screenLeft" class="item-first"></span>
+                            <span id="window_screenTop" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>screenX / screenY</td>
+                        <td>
+                            <span id="window_screenX" class="item-first"></span>
+                            <span id="window_screenY" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollMaxX / scrollMaxY</td>
+                        <td>
+                            <span id="window_scrollMaxX" class="item-first"></span>
+                            <span id="window_scrollMaxY" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>scrollX / scrollY</td>
+                        <td>
+                            <span id="window_scrollX" class="item-first"></span>
+                            <span id="window_scrollY" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>crossOriginIsolated</td>
+                        <td id="window_crossOriginIsolated"></td>
+                    </tr>
+                    <tr>
+                        <td>devicePixelRatio</td>
+                        <td id="window_devicePixelRatio"></td>
+                    </tr>
+                    <tr>
+                        <td>fullScreen</td>
+                        <td id="window_fullScreen"></td>
+                    </tr>
+                    <tr>
+                        <td>isSecureContext</td>
+                        <td id="window_isSecureContext"></td>
+                    </tr>
+                    <tr>
+                        <td>length</td>
+                        <td id="window_length"></td>
+                    </tr>
+                    <tr>
+                        <td>mozInnerScreenX / mozInnerScreenY</td>
+                        <td>
+                            <span id="window_mozInnerScreenX" class="item-first"></span>
+                            <span id="window_mozInnerScreenY" class="item-second"></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Location</h2>
+            <table class="jsinfo">
+                <tbody>
+                    <tr>
+                        <td>href</td>
+                        <td id="location_href"></td>
+                    </tr>
+                    <tr>
+                        <td>origin</td>
+                        <td id="location_origin"></td>
+                    </tr>
+                    <tr>
+                        <td>protocol</td>
+                        <td id="location_protocol"></td>
+                    </tr>
+                    <tr>
+                        <td>host</td>
+                        <td id="location_host"></td>
+                    </tr>
+                    <tr>
+                        <td>hostname</td>
+                        <td id="location_hostname"></td>
+                    </tr>
+                    <tr>
+                        <td>port</td>
+                        <td id="location_port"></td>
+                    </tr>
+                    <tr>
+                        <td>pathname</td>
+                        <td id="location_pathname"></td>
+                    </tr>
+                    <tr>
+                        <td>search</td>
+                        <td id="location_search"></td>
+                    </tr>
+                    <tr>
+                        <td>hash</td>
+                        <td id="location_hash"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Document</h2>
+            <table class="jsinfo">
+                <tbody>
+                    <tr>
+                        <td>referrer</td>
+                        <td id="document_referrer"></td>
+                    </tr>
+                    <tr>
+                        <td>URL</td>
+                        <td id="document_URL"></td>
+                    </tr>
+                    <tr>
+                        <td>baseURI</td>
+                        <td id="document_baseURI"></td>
+                    </tr>
+                    <tr>
+                        <td>documentURI</td>
+                        <td id="document_documentURI"></td>
+                    </tr>
+                    <tr>
+                        <td>domain</td>
+                        <td id="document_domain"></td>
+                    </tr>
+                    <tr>
+                        <td>inputEncoding</td>
+                        <td id="document_inputEncoding"></td>
+                    </tr>
+                    <tr>
+                        <td>characterSet / charset</td>
+                        <td>
+                            <span id="document_characterSet" class="item-first"></span>
+                            <span id="document_charset" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>contentType</td>
+                        <td id="document_contentType"></td>
+                    </tr>
+                    <tr>
+                        <td>readyState</td>
+                        <td id="document_readyState"></td>
+                    </tr>
+                    <tr>
+                        <td>cookie</td>
+                        <td id="document_cookie"></td>
+                    </tr>
+                    <tr>
+                        <td>dir</td>
+                        <td id="document_dir"></td>
+                    </tr>
+                    <tr>
+                        <td>isConnected</td>
+                        <td id="document_isConnected"></td>
+                    </tr>
+                    <tr>
+                        <td>fullscreenEnabled / fullscreen</td>
+                        <td>
+                            <span id="document_fullscreenEnabled" class="item-first"></span>
+                            <span id="document_fullscreen" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>fullscreenElement</td>
+                        <td id="document_fullscreenElement"></td>
+                    </tr>
+                    <tr>
+                        <td>lastModified</td>
+                        <td id="document_lastModified"></td>
+                    </tr>
+                    <tr>
+                        <td>compatMode</td>
+                        <td id="document_compatMode"></td>
+                    </tr>
+                    <tr>
+                        <td>designMode</td>
+                        <td id="document_designMode"></td>
+                    </tr>
+                    <tr>
+                        <td>mozFullScreenEnabled / mozFullScreen</td>
+                        <td>
+                            <span id="document_mozFullScreenEnabled" class="item-first"></span>
+                            <span id="document_mozFullScreen" class="item-second"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>mozFullScreenElement</td>
+                        <td id="document_mozFullScreenElement"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>History</h2>
+            <table class="jsinfo">
+                <tbody>
+                    <tr>
+                        <td>length</td>
+                        <td id="history_length"></td>
+                    </tr>
+                    <tr>
+                        <td>scrollRestoration</td>
+                        <td id="history_scrollRestoration"></td>
+                    </tr>
+                    <tr>
+                        <td>state</td>
+                        <td id="history_state"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <footer class="site-footer">
+                <span class="site-footer-owner">
+                    <a href="https://github.com/sunarch/libweb">libweb</a>
+                    is maintained by
+                    <a href="https://github.com/sunarch">sunarch</a>
+                </span>
+                -
+                <span class="site-footer-credits">
+                    Published via
+                    <a href="https://pages.github.com">GitHub Pages</a>
+                </span>
+            </footer>
+        </main>
+    </body>
+</html>
