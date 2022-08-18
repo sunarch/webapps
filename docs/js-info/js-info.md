@@ -62,20 +62,18 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 <table class="jsinfo">
     <tbody>
         <tr>
-            <td>width</td>
-            <td id="screen_width"></td>
+            <td>width / height</td>
+            <td>
+                <span id="screen_width" class="item-first"></span>
+                <span id="screen_height" class="item-second"></span>
+            </td>
         </tr>
         <tr>
-            <td>height</td>
-            <td id="screen_height"></td>
-        </tr>
-        <tr>
-            <td>availWidth</td>
-            <td id="screen_availWidth"></td>
-        </tr>
-        <tr>
-            <td>availHeight</td>
-            <td id="screen_availHeight"></td>
+            <td>availWidth / availHeight</td>
+            <td>
+                <span id="screen_availWidth" class="item-first"></span>
+                <span id="screen_availHeight" class="item-second"></span>
+            </td>
         </tr>
         <tr>
             <td>colorDepth</td>
@@ -113,44 +111,39 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td id="window_status"></td>
         </tr>
         <tr>
-            <td>outerWidth</td>
-            <td id="window_outerWidth"></td>
+            <td>outerWidth / outerHeight</td>
+            <td>
+                <span id="window_outerWidth" class="item-first"></span>
+                <span id="window_outerHeight" class="item-second"></span>
+            </td>
         </tr>
         <tr>
-            <td>outerHeight</td>
-            <td id="window_outerHeight"></td>
+            <td>innerWidth / innerHeight</td>
+            <td>
+                <span id="window_innerWidth" class="item-first"></span>
+                <span id="window_innerHeight" class="item-second"></span>
+            </td>
         </tr>
         <tr>
-            <td>innerWidth</td>
-            <td id="window_innerWidth"></td>
+            <td>pageXOffset / pageYOffset</td>
+            <td>
+                <span id="window_pageXOffset" class="item-first"></span>
+                <span id="window_pageYOffset" class="item-second"></span>
+            </td>
         </tr>
         <tr>
-            <td>innerHeight</td>
-            <td id="window_innerHeight"></td>
+            <td>screenLeft / screenTop</td>
+            <td>
+                <span id="window_screenLeft" class="item-first"></span>
+                <span id="window_screenTop" class="item-second"></span>
+            </td>
         </tr>
         <tr>
-            <td>pageXOffset</td>
-            <td id="window_pageXOffset"></td>
-        </tr>
-        <tr>
-            <td>pageYOffset</td>
-            <td id="window_pageYOffset"></td>
-        </tr>
-        <tr>
-            <td>screenTop</td>
-            <td id="window_screenTop"></td>
-        </tr>
-        <tr>
-            <td>screenLeft</td>
-            <td id="window_screenLeft"></td>
-        </tr>
-        <tr>
-            <td>screenX</td>
-            <td id="window_screenX"></td>
-        </tr>
-        <tr>
-            <td>screenY</td>
-            <td id="window_screenY"></td>
+            <td>screenX / screenY</td>
+            <td>
+                <span id="window_screenX" class="item-first"></span>
+                <span id="window_screenY" class="item-second"></span>
+            </td>
         </tr>
     </tbody>
 </table>

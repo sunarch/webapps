@@ -22,3 +22,13 @@ table.jsinfo {
 table.jsinfo td {
     width: 50%;
 }
+
+span.item-first:before,
+span.item-first:after,
+span.item-second:after
+{
+    content: "'";
+}
+span.item-second:before {
+    content: " / '";
+}
