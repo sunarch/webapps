@@ -73,7 +73,6 @@ const jai = {
         "inputEncoding",
         "characterSet", "charset",
         "contentType",
-        "doctype",
         "readyState",
         "cookie",
         "dir",

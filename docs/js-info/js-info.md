@@ -344,10 +344,6 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td id="document_contentType"></td>
         </tr>
         <tr>
-            <td>doctype</td>
-            <td id="document_doctype"></td>
-        </tr>
-        <tr>
             <td>readyState</td>
             <td id="document_readyState"></td>
         </tr>
