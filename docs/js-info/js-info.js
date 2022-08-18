@@ -77,7 +77,6 @@ function eh_load_body() {
 
 // event handlers - buttons
 
-
 function eh_button_refresh() {
     update_all();
 }
