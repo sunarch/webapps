@@ -19,9 +19,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 [< home](../index.md)
 
-<noscript>
-    <h3>JavaScript is not enabled in your browser!</h3>
-</noscript>
+{% include noscript.html %}
 
 <input type="button" class="refreshbutton" onClick="eh_button_refresh();" value="Refresh" />
 
