@@ -13,5 +13,5 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 ## web-projects
 
-- [tools](tools/tools.md)
+- [JavaScript Info](js-info/js-info.md)
 - [distribution](distribution/distribution.html)

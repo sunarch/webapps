@@ -2,7 +2,14 @@
 layout: "default"
 title: "JavaScript Accessed Information"
 description: "testing tool | sunarch"
-permalink: "/tools/js-info"
+permalink: "/js-info"
+
+styles:
+    - "/js-info/js-info.css"
+scripts:
+    - "/distribution/distribution.js"
+    - "/distribution/predefined.js"
+body_onload: "refresh();"
 ---
 <!--
 This Source Code Form is subject to the terms of the Mozilla Public
@@ -11,65 +18,6 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 -->
 
 [< home](../index.md)
-
-<style type="text/css">
-    input.refreshbutton {
-        width: 120px;
-        height: 40px;
-        font-size: 20px;
-        padding: 2px;
-        position: fixed;
-        top: 5px;
-        right: 5px;
-        opacity: 1.0;
-    }
-    
-    table.jsinfo {
-        display: table;
-        width: 100%;
-    }
-    table.jsinfo td {
-        width: 50%;
-    }
-</style>
-
-<script type="text/javascript" language="JavaScript">
-        
-    var jai = {
-        "window":    ["closed", "defaultStatus", "innerHeight", "innerWidth", 
-                      "name", "opener", "outerHeight", "outerWidth", 
-                      "pageXOffset", "pageYOffset", "screenLeft", "screenTop", 
-                      "screenX", "screenY", "status"],
-        "navigator": ["appCodeName", "appName", "appVersion", "cookieEnabled", 
-                      "platform", "userAgent"],
-        "screen":    ["availHeight", "availWidth", "colorDepth", 
-                      "height", "pixelDepth", "width"],
-        "history":   ["length"],
-        "location":  ["hash", "host", "hostname", "href", 
-                      "pathname", "port", "protocol", "search"]
-    };
-    
-    category_list = Object.keys(jai) // categories
-    
-    function refresh() {
-        document.getElementById("errormessage").style.display = "none";
-        
-        for (n1=0; n1<=category_list.length-1; n1=n1+1) {
-            category = category_list[n1];
-            item_list = jai[category];
-            
-            for (n2=0; n2<=item_list.length-1; n2=n2+1) {
-                item = item_list[n2];
-            
-                tag_id = category + "_" + item;
-                value = eval(category + "." + item);
-                
-                document.getElementById(tag_id).innerHTML = String(value);
-            }
-        }
-    }
-
-</script>
 
 <h3 id="errormessage">JavaScript is not enabled in your browser!</h3>
 
@@ -262,7 +210,3 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         </tr>
     </tbody>
 </table>
-
-<script type="text/javascript" language="JavaScript">
-    refresh();
-</script>
