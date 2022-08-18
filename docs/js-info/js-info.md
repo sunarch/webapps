@@ -7,8 +7,7 @@ permalink: "/js-info"
 styles:
     - "/js-info/js-info.css"
 scripts:
-    - "/distribution/distribution.js"
-    - "/distribution/predefined.js"
+    - "/js-info/js-info.js"
 body_onload: "eh_load_body();"
 ---
 <!--
