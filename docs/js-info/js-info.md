@@ -27,6 +27,10 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 <table class="jsinfo">
     <tbody>
         <tr>
+            <td>userAgent</td>
+            <td id="navigator_userAgent"></td>
+        </tr>
+        <tr>
             <td>appCodeName</td>
             <td id="navigator_appCodeName"></td>
         </tr>
@@ -39,16 +43,12 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td id="navigator_appVersion"></td>
         </tr>
         <tr>
-            <td>cookieEnabled</td>
-            <td id="navigator_cookieEnabled"></td>
-        </tr>
-        <tr>
             <td>platform</td>
             <td id="navigator_platform"></td>
         </tr>
         <tr>
-            <td>userAgent</td>
-            <td id="navigator_userAgent"></td>
+            <td>cookieEnabled</td>
+            <td id="navigator_cookieEnabled"></td>
         </tr>
         <tr>
             <td>javaEnabled()</td>
@@ -62,28 +62,28 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 <table class="jsinfo">
     <tbody>
         <tr>
-            <td>availHeight: </td>
-            <td id="screen_availHeight"></td>
+            <td>width</td>
+            <td id="screen_width"></td>
         </tr>
         <tr>
-            <td>availWidth: </td>
-            <td id="screen_availWidth"></td>
-        </tr>
-        <tr>
-            <td>colorDepth: </td>
-            <td id="screen_colorDepth"></td>
-        </tr>
-        <tr>
-            <td>height: </td>
+            <td>height</td>
             <td id="screen_height"></td>
         </tr>
         <tr>
-            <td>pixelDepth: </td>
-            <td id="screen_pixelDepth"></td>
+            <td>availWidth</td>
+            <td id="screen_availWidth"></td>
         </tr>
         <tr>
-            <td>width: </td>
-            <td id="screen_width"></td>
+            <td>availHeight</td>
+            <td id="screen_availHeight"></td>
+        </tr>
+        <tr>
+            <td>colorDepth</td>
+            <td id="screen_colorDepth"></td>
+        </tr>
+        <tr>
+            <td>pixelDepth</td>
+            <td id="screen_pixelDepth"></td>
         </tr>
     </tbody>
 </table>
@@ -93,22 +93,6 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 <table class="jsinfo">
     <tbody>
         <tr>
-            <td>closed</td>
-            <td id="window_closed"></td>
-        </tr>
-        <tr>
-            <td>defaultStatus</td>
-            <td id="window_defaultStatus"></td>
-        </tr>
-        <tr>
-            <td>innerHeight</td>
-            <td id="window_innerHeight"></td>
-        </tr>
-        <tr>
-            <td>innerWidth</td>
-            <td id="window_innerWidth"></td>
-        </tr>
-        <tr>
             <td>name</td>
             <td id="window_name"></td>
         </tr>
@@ -117,12 +101,32 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td id="window_opener"></td>
         </tr>
         <tr>
-            <td>outerHeight</td>
-            <td id="window_outerHeight"></td>
+            <td>closed</td>
+            <td id="window_closed"></td>
+        </tr>
+        <tr>
+            <td>defaultStatus</td>
+            <td id="window_defaultStatus"></td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td id="window_status"></td>
         </tr>
         <tr>
             <td>outerWidth</td>
             <td id="window_outerWidth"></td>
+        </tr>
+        <tr>
+            <td>outerHeight</td>
+            <td id="window_outerHeight"></td>
+        </tr>
+        <tr>
+            <td>innerWidth</td>
+            <td id="window_innerWidth"></td>
+        </tr>
+        <tr>
+            <td>innerHeight</td>
+            <td id="window_innerHeight"></td>
         </tr>
         <tr>
             <td>pageXOffset</td>
@@ -133,12 +137,12 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td id="window_pageYOffset"></td>
         </tr>
         <tr>
-            <td>screenLeft</td>
-            <td id="window_screenLeft"></td>
-        </tr>
-        <tr>
             <td>screenTop</td>
             <td id="window_screenTop"></td>
+        </tr>
+        <tr>
+            <td>screenLeft</td>
+            <td id="window_screenLeft"></td>
         </tr>
         <tr>
             <td>screenX</td>
@@ -148,10 +152,6 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td>screenY</td>
             <td id="window_screenY"></td>
         </tr>
-        <tr>
-            <td>status</td>
-            <td id="window_status"></td>
-        </tr>
     </tbody>
 </table>
 
@@ -160,36 +160,36 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 <table class="jsinfo">
     <tbody>
         <tr>
-            <td>hash: </td>
-            <td id="location_hash"></td>
-        </tr>
-        <tr>
-            <td>host: </td>
-            <td id="location_host"></td>
-        </tr>
-        <tr>
-            <td>hostname: </td>
-            <td id="location_hostname"></td>
-        </tr>
-        <tr>
-            <td>href: </td>
+            <td>href</td>
             <td id="location_href"></td>
         </tr>
         <tr>
-            <td>pathname: </td>
-            <td id="location_pathname"></td>
-        </tr>
-        <tr>
-            <td>port: </td>
-            <td id="location_port"></td>
-        </tr>
-        <tr>
-            <td>protocol: </td>
+            <td>protocol</td>
             <td id="location_protocol"></td>
         </tr>
         <tr>
-            <td>search: </td>
+            <td>host</td>
+            <td id="location_host"></td>
+        </tr>
+        <tr>
+            <td>hostname</td>
+            <td id="location_hostname"></td>
+        </tr>
+        <tr>
+            <td>port</td>
+            <td id="location_port"></td>
+        </tr>
+        <tr>
+            <td>pathname</td>
+            <td id="location_pathname"></td>
+        </tr>
+        <tr>
+            <td>search</td>
             <td id="location_search"></td>
+        </tr>
+        <tr>
+            <td>hash</td>
+            <td id="location_hash"></td>
         </tr>
     </tbody>
 </table>
@@ -199,7 +199,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 <table class="jsinfo">
     <tbody>
         <tr>
-            <td>length: </td>
+            <td>length</td>
             <td id="history_length"></td>
         </tr>
     </tbody>

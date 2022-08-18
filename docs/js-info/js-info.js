@@ -5,28 +5,28 @@
 
 const jai = {
     navigator: [
+        "userAgent",
         "appCodeName",
         "appName",
         "appVersion",
-        "cookieEnabled", 
         "platform",
-        "userAgent"
+        "cookieEnabled"
     ],
     screen: [
-        "availWidth", "availHeight",
         "width", "height",
+        "availWidth", "availHeight",
         "colorDepth", 
         "pixelDepth"
     ],
     window: [
-        "closed",
-        "defaultStatus", "status",
-        "innerHeight", "innerWidth", 
         "name",
         "opener",
-        "outerHeight", "outerWidth", 
+        "closed",
+        "defaultStatus", "status",
+        "outerWidth", "outerHeight",
+        "innerWidth", "innerHeight",
         "pageXOffset", "pageYOffset",
-        "screenLeft", "screenTop", 
+        "screenTop", "screenLeft",
         "screenX", "screenY"
     ],
     location: [
