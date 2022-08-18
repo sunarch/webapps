@@ -19,12 +19,11 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 [< home](../index.md)
 
+
 <noscript>
     <p>JavaScript is required to use this application.</p>
 </noscript>
-
-# Distribution
-
+<h1>Distribution</h1>
 <p>
     <label for="page-count">Available units: </label>
     <input type="number" name="page-count" id="page-count" onFocus="eh_focus_page_count();" onChange="eh_change_page_count();" />
@@ -53,9 +52,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 <p>
     <input type="button" value="Add entry" onClick="eh_button_add_entry();" />
 </p>
-
-## Predefined entries:
-
+<h2>Predefined entries:</h2>
 <table>
     <tbody id="predefs-container">
         <tr>
