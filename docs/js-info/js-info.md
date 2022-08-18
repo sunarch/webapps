@@ -43,12 +43,62 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             <td id="navigator_appVersion"></td>
         </tr>
         <tr>
+            <td>buildID</td>
+            <td id="navigator_buildID"></td>
+        </tr>
+        <tr>
+            <td>vendor / vendorSub</td>
+            <td>
+                <span id="navigator_vendor" class="item-first"></span>
+                <span id="navigator_vendorSub" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>product / productSub</td>
+            <td>
+                <span id="navigator_product" class="item-first"></span>
+                <span id="navigator_productSub" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
             <td>platform</td>
             <td id="navigator_platform"></td>
         </tr>
         <tr>
+            <td>oscpu</td>
+            <td id="navigator_oscpu"></td>
+        </tr>
+        <tr>
+            <td>hardwareConcurrency</td>
+            <td id="navigator_hardwareConcurrency"></td>
+        </tr>
+        <tr>
             <td>cookieEnabled</td>
             <td id="navigator_cookieEnabled"></td>
+        </tr>
+        <tr>
+            <td>pdfViewerEnabled</td>
+            <td id="navigator_pdfViewerEnabled"></td>
+        </tr>
+        <tr>
+            <td>doNotTrack</td>
+            <td id="navigator_doNotTrack"></td>
+        </tr>
+        <tr>
+            <td>language</td>
+            <td id="navigator_language"></td>
+        </tr>
+        <tr>
+            <td>maxTouchPoints</td>
+            <td id="navigator_maxTouchPoints"></td>
+        </tr>
+        <tr>
+            <td>onLine</td>
+            <td id="navigator_onLine"></td>
+        </tr>
+        <tr>
+            <td>webdriver</td>
+            <td id="navigator_webdriver"></td>
         </tr>
         <tr>
             <td>javaEnabled()</td>
@@ -76,12 +126,30 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
             </td>
         </tr>
         <tr>
+            <td>left / top</td>
+            <td>
+                <span id="screen_left" class="item-first"></span>
+                <span id="screen_top" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>availLeft / availTop</td>
+            <td>
+                <span id="screen_availLeft" class="item-first"></span>
+                <span id="screen_availTop" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
             <td>colorDepth</td>
             <td id="screen_colorDepth"></td>
         </tr>
         <tr>
             <td>pixelDepth</td>
             <td id="screen_pixelDepth"></td>
+        </tr>
+        <tr>
+            <td>mozOrientation</td>
+            <td id="screen_mozOrientation"></td>
         </tr>
     </tbody>
 </table>
@@ -97,6 +165,10 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         <tr>
             <td>opener</td>
             <td id="window_opener"></td>
+        </tr>
+        <tr>
+            <td>origin</td>
+            <td id="window_origin"></td>
         </tr>
         <tr>
             <td>closed</td>
@@ -145,6 +217,47 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
                 <span id="window_screenY" class="item-second"></span>
             </td>
         </tr>
+        <tr>
+            <td>scrollMaxX / scrollMaxY</td>
+            <td>
+                <span id="window_scrollMaxX" class="item-first"></span>
+                <span id="window_scrollMaxY" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>scrollX / scrollY</td>
+            <td>
+                <span id="window_scrollX" class="item-first"></span>
+                <span id="window_scrollY" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>crossOriginIsolated</td>
+            <td id="window_crossOriginIsolated"></td>
+        </tr>
+        <tr>
+            <td>devicePixelRatio</td>
+            <td id="window_devicePixelRatio"></td>
+        </tr>
+        <tr>
+            <td>fullScreen</td>
+            <td id="window_fullScreen"></td>
+        </tr>
+        <tr>
+            <td>isSecureContext</td>
+            <td id="window_isSecureContext"></td>
+        </tr>
+        <tr>
+            <td>length</td>
+            <td id="window_length"></td>
+        </tr>
+        <tr>
+            <td>mozInnerScreenX / mozInnerScreenY</td>
+            <td>
+                <span id="window_mozInnerScreenX" class="item-first"></span>
+                <span id="window_mozInnerScreenY" class="item-second"></span>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -155,6 +268,10 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         <tr>
             <td>href</td>
             <td id="location_href"></td>
+        </tr>
+        <tr>
+            <td>origin</td>
+            <td id="location_origin"></td>
         </tr>
         <tr>
             <td>protocol</td>
@@ -187,6 +304,102 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
     </tbody>
 </table>
 
+## Document
+
+<table class="jsinfo">
+    <tbody>
+        <tr>
+            <td>referrer</td>
+            <td id="document_referrer"></td>
+        </tr>
+        <tr>
+            <td>URL</td>
+            <td id="document_URL"></td>
+        </tr>
+        <tr>
+            <td>baseURI</td>
+            <td id="document_baseURI"></td>
+        </tr>
+        <tr>
+            <td>documentURI</td>
+            <td id="document_documentURI"></td>
+        </tr>
+        <tr>
+            <td>domain</td>
+            <td id="document_domain"></td>
+        </tr>
+        <tr>
+            <td>inputEncoding</td>
+            <td id="document_inputEncoding"></td>
+        </tr>
+        <tr>
+            <td>characterSet / charset</td>
+            <td>
+                <span id="document_characterSet" class="item-first"></span>
+                <span id="document_charset" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>contentType</td>
+            <td id="document_contentType"></td>
+        </tr>
+        <tr>
+            <td>doctype</td>
+            <td id="document_doctype"></td>
+        </tr>
+        <tr>
+            <td>readyState</td>
+            <td id="document_readyState"></td>
+        </tr>
+        <tr>
+            <td>cookie</td>
+            <td id="document_cookie"></td>
+        </tr>
+        <tr>
+            <td>dir</td>
+            <td id="document_dir"></td>
+        </tr>
+        <tr>
+            <td>isConnected</td>
+            <td id="document_isConnected"></td>
+        </tr>
+        <tr>
+            <td>fullscreenEnabled / fullscreen</td>
+            <td>
+                <span id="document_fullscreenEnabled" class="item-first"></span>
+                <span id="document_fullscreen" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>fullscreenElement</td>
+            <td id="document_fullscreenElement"></td>
+        </tr>
+        <tr>
+            <td>lastModified</td>
+            <td id="document_lastModified"></td>
+        </tr>
+        <tr>
+            <td>compatMode</td>
+            <td id="document_compatMode"></td>
+        </tr>
+        <tr>
+            <td>designMode</td>
+            <td id="document_designMode"></td>
+        </tr>
+        <tr>
+            <td>mozFullScreenEnabled / mozFullScreen</td>
+            <td>
+                <span id="document_mozFullScreenEnabled" class="item-first"></span>
+                <span id="document_mozFullScreen" class="item-second"></span>
+            </td>
+        </tr>
+        <tr>
+            <td>mozFullScreenElement</td>
+            <td id="document_mozFullScreenElement"></td>
+        </tr>
+    </tbody>
+</table>
+
 ## History
 
 <table class="jsinfo">
@@ -194,6 +407,14 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         <tr>
             <td>length</td>
             <td id="history_length"></td>
+        </tr>
+        <tr>
+            <td>scrollRestoration</td>
+            <td id="history_scrollRestoration"></td>
+        </tr>
+        <tr>
+            <td>state</td>
+            <td id="history_state"></td>
         </tr>
     </tbody>
 </table>
