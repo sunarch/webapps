@@ -4,12 +4,26 @@ License, v. 2.0. If a copy of the MPL was not distributed with this
 file, You can obtain one at http://mozilla.org/MPL/2.0/.
 */
 
-td {border: 1pt solid black; padding: 5pt;}
+td {
+    width: 25%;
+    border: 1pt solid black;
+    padding: 5pt;
+}
 
-.total:before {content: "total: ";}
+span.total:before {
+    content: "total: ";
+}
 
-th.percent, td.percent {text-align: right;}
-span.percent:after {content: " %";}
+td input {
+    width: 100%;
+}
+
+th.percent, td.percent {
+    text-align: right;
+}
+span.percent:after {
+    content: " %";
+}
 
 noscript {
     font-weight: bold;
