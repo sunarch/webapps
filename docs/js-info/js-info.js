@@ -20,8 +20,7 @@ var jai = {
 category_list = Object.keys(jai) // categories
 
 function refresh() {
-    document.getElementById("errormessage").style.display = "none";
-    
+
     for (n1=0; n1<=category_list.length-1; n1=n1+1) {
         category = category_list[n1];
         item_list = jai[category];

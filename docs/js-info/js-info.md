@@ -19,7 +19,9 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 [< home](../index.md)
 
-<h3 id="errormessage">JavaScript is not enabled in your browser!</h3>
+<noscript>
+    <h3>JavaScript is not enabled in your browser!</h3>
+</noscript>
 
 <input type="button" class="refreshbutton" onClick="refresh()" value="Refresh" />
 
