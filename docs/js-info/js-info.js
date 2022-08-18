@@ -4,17 +4,6 @@
 
 
 const jai = {
-    window: [
-        "closed",
-        "defaultStatus", "status",
-        "innerHeight", "innerWidth", 
-        "name",
-        "opener",
-        "outerHeight", "outerWidth", 
-        "pageXOffset", "pageYOffset",
-        "screenLeft", "screenTop", 
-        "screenX", "screenY"
-    ],
     navigator: [
         "appCodeName",
         "appName",
@@ -29,8 +18,16 @@ const jai = {
         "colorDepth", 
         "pixelDepth"
     ],
-    history: [
-        "length"
+    window: [
+        "closed",
+        "defaultStatus", "status",
+        "innerHeight", "innerWidth", 
+        "name",
+        "opener",
+        "outerHeight", "outerWidth", 
+        "pageXOffset", "pageYOffset",
+        "screenLeft", "screenTop", 
+        "screenX", "screenY"
     ],
     location: [
         "href",
@@ -40,6 +37,9 @@ const jai = {
         "pathname",
         "search",
         "hash"
+    ],
+    history: [
+        "length"
     ]
 };
 

@@ -22,6 +22,72 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
 <input type="button" class="refreshbutton" onClick="eh_button_refresh();" value="Refresh" />
 
+## Navigator
+
+<table class="jsinfo">
+    <tbody>
+        <tr>
+            <td>appCodeName</td>
+            <td id="navigator_appCodeName"></td>
+        </tr>
+        <tr>
+            <td>appName</td>
+            <td id="navigator_appName"></td>
+        </tr>
+        <tr>
+            <td>appVersion</td>
+            <td id="navigator_appVersion"></td>
+        </tr>
+        <tr>
+            <td>cookieEnabled</td>
+            <td id="navigator_cookieEnabled"></td>
+        </tr>
+        <tr>
+            <td>platform</td>
+            <td id="navigator_platform"></td>
+        </tr>
+        <tr>
+            <td>userAgent</td>
+            <td id="navigator_userAgent"></td>
+        </tr>
+        <tr>
+            <td>javaEnabled()</td>
+            <td id="navigator_javaEnabled_fn"></td>
+        </tr>
+    </tbody>
+</table>
+
+## Screen
+
+<table class="jsinfo">
+    <tbody>
+        <tr>
+            <td>availHeight: </td>
+            <td id="screen_availHeight"></td>
+        </tr>
+        <tr>
+            <td>availWidth: </td>
+            <td id="screen_availWidth"></td>
+        </tr>
+        <tr>
+            <td>colorDepth: </td>
+            <td id="screen_colorDepth"></td>
+        </tr>
+        <tr>
+            <td>height: </td>
+            <td id="screen_height"></td>
+        </tr>
+        <tr>
+            <td>pixelDepth: </td>
+            <td id="screen_pixelDepth"></td>
+        </tr>
+        <tr>
+            <td>width: </td>
+            <td id="screen_width"></td>
+        </tr>
+    </tbody>
+</table>
+
 ## Window
 
 <table class="jsinfo">
@@ -89,83 +155,6 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
     </tbody>
 </table>
 
-## Navigator
-
-<table class="jsinfo">
-    <tbody>
-        <tr>
-            <td>appCodeName</td>
-            <td id="navigator_appCodeName"></td>
-        </tr>
-        <tr>
-            <td>appName</td>
-            <td id="navigator_appName"></td>
-        </tr>
-        <tr>
-            <td>appVersion</td>
-            <td id="navigator_appVersion"></td>
-        </tr>
-        <tr>
-            <td>cookieEnabled</td>
-            <td id="navigator_cookieEnabled"></td>
-        </tr>
-        <tr>
-            <td>platform</td>
-            <td id="navigator_platform"></td>
-        </tr>
-        <tr>
-            <td>userAgent</td>
-            <td id="navigator_userAgent"></td>
-        </tr>
-        <tr>
-            <td>javaEnabled()</td>
-            <td id="navigator_javaEnabled_fn"></td>
-        </tr>
-    </tbody>
-</table>
-
-## Screen
-
-<table class="jsinfo">
-    <tbody>
-        <tr>
-            <td>availHeight: </td>
-            <td id="screen_availHeight"></td>
-        </tr>
-        <tr>
-            <td>availWidth: </td>
-            <td id="screen_availWidth"></td>
-        </tr>
-        <tr>
-            <td>colorDepth: </td>
-            <td id="screen_colorDepth"></td>
-        </tr>
-        <tr>
-            <td>height: </td>
-            <td id="screen_height"></td>
-        </tr>
-        <tr>
-            <td>pixelDepth: </td>
-            <td id="screen_pixelDepth"></td>
-        </tr>
-        <tr>
-            <td>width: </td>
-            <td id="screen_width"></td>
-        </tr>
-    </tbody>
-</table>
-
-## History
-
-<table class="jsinfo">
-    <tbody>
-        <tr>
-            <td>length: </td>
-            <td id="history_length"></td>
-        </tr>
-    </tbody>
-</table>
-
 ## Location
 
 <table class="jsinfo">
@@ -201,6 +190,17 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         <tr>
             <td>search: </td>
             <td id="location_search"></td>
+        </tr>
+    </tbody>
+</table>
+
+## History
+
+<table class="jsinfo">
+    <tbody>
+        <tr>
+            <td>length: </td>
+            <td id="history_length"></td>
         </tr>
     </tbody>
 </table>
