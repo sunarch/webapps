@@ -5,10 +5,10 @@ description: "calculator tool | sunarch"
 permalink: "/distribution"
 
 styles:
-    - "/distibution/distibution.css"
+    - "/distribution/distribution.css"
 scripts:
-    - "/distibution/distibution.js"
-    - "/distibution/predefined.js"
+    - "/distribution/distribution.js"
+    - "/distribution/predefined.js"
 body_onload: "eh_load_body();"
 ---
 <!--
