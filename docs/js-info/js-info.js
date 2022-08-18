@@ -4,17 +4,43 @@
 
 
 var jai = {
-    "window":    ["closed", "defaultStatus", "innerHeight", "innerWidth", 
-                  "name", "opener", "outerHeight", "outerWidth", 
-                  "pageXOffset", "pageYOffset", "screenLeft", "screenTop", 
-                  "screenX", "screenY", "status"],
-    "navigator": ["appCodeName", "appName", "appVersion", "cookieEnabled", 
-                  "platform", "userAgent"],
-    "screen":    ["availHeight", "availWidth", "colorDepth", 
-                  "height", "pixelDepth", "width"],
-    "history":   ["length"],
-    "location":  ["hash", "host", "hostname", "href", 
-                  "pathname", "port", "protocol", "search"]
+    window: [
+        "closed",
+        "defaultStatus", "status",
+        "innerHeight", "innerWidth", 
+        "name",
+        "opener",
+        "outerHeight", "outerWidth", 
+        "pageXOffset", "pageYOffset",
+        "screenLeft", "screenTop", 
+        "screenX", "screenY"
+    ],
+    navigator: [
+        "appCodeName",
+        "appName",
+        "appVersion",
+        "cookieEnabled", 
+        "platform",
+        "userAgent"
+    ],
+    screen: [
+        "availWidth", "availHeight",
+        "width", "height",
+        "colorDepth", 
+        "pixelDepth"
+    ],
+    history: [
+        "length"
+    ],
+    location: [
+        "href",
+        "protocol",
+        "host", "hostname",
+        "port",
+        "pathname",
+        "search",
+        "hash"
+    ]
 };
 
 category_list = Object.keys(jai) // categories
