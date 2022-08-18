@@ -14,4 +14,4 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
 ## web-projects
 
 - [tools](tools/tools.md)
-- [distribution](distribution/distribution.md)
+- [distribution](distribution/distribution.html)
