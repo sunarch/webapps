@@ -24,6 +24,8 @@ function update_all() {
         update_totals();
         force_first = false;
     }
+
+    local_storage_save();
 }
 
 function update_entries(page_parts_cutoff) {
@@ -85,7 +87,6 @@ function load_data_object(data_object) {
         insert_entry(item.name, item.count);
     }
     update_all();
-    local_storage_save();
 }
 
 // local storage

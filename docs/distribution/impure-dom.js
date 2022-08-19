@@ -48,7 +48,6 @@ function insert_entry(name = "", count = 0) {
     const new_row = create_entry(row_num, name, count);
     document.getElementById("entries-container").appendChild(new_row);
     update_all();
-    local_storage_save();
 }
 
 // DOM - delete elements
@@ -105,7 +104,6 @@ function write_page_count(new_value, prev_value = 1) {
     cached_page_count = new_value;
     document.getElementById("page-count").value = new_value;
     update_all();
-    local_storage_save();
 }
 
 function write_page_count_prev(new_value) {
@@ -125,7 +123,6 @@ function write_entry_count(row_num, new_value, prev_value = 0) {
     }
     document.getElementById("entry-" + row_num + "-count").value = new_value;
     update_all();
-    local_storage_save();
 }
 
 function write_entry_count_prev(row_num, new_value) {
