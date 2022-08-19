@@ -93,17 +93,10 @@ function load_data_object(data_object) {
 
 function local_storage_save() {
     const data_object = create_data_object();
-    const save_str = JSON.stringify(data_object);
-    localStorage.setItem(settings.local_storage_key, save_str);
+    lib_storage_local_save_json(settings.local_storage_key, data_object);
 }
 
 function local_storage_load() {
-    const load_str = localStorage.getItem(settings.local_storage_key);
-    
-    if (load_str == null) {
-        console.log('No data data in local storage to be loaded.');
-        return;
-    }
-    const data_object = JSON.parse(load_str);
+    const data_object = lib_storage_local_load_json(settings.local_storage_key);
     load_data_object(data_object);
 }
