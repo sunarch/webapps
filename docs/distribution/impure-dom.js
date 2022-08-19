@@ -59,7 +59,7 @@ function delete_all_entries() {
 
 // DOM - read/write general values
 
-function read_page_count(row_num) {
+function read_page_count() {
     return Number(document.getElementById("page-count").value);
 }
 
