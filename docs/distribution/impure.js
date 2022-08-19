@@ -2,23 +2,17 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-// globals - cache
-
-let cached_page_count = 1;
-let cached_total_count = 0;
-let cached_total_units = 0;
-
 // update calculated values
 
 function update_all() {
     let force_first = false;
-    if (cached_total_units <= cached_page_count) {
+    if (read_total_units() <= read_page_count()) {
         force_first = true;
     }
     
     let page_parts_cutoff = 0.0 - settings.page_parts_cutoff_step;
     
-    while (force_first || (cached_total_units > cached_page_count && page_parts_cutoff <= 1.0)) {
+    while (force_first || (read_total_units() > read_page_count() && page_parts_cutoff <= 1.0)) {
         page_parts_cutoff += settings.page_parts_cutoff_step;
         update_entries(page_parts_cutoff);
         update_totals();
@@ -32,10 +26,10 @@ function update_entries(page_parts_cutoff) {
     for (let row_num = 1; row_num <= read_total_entries(); row_num++) {
         const entry_count = read_entry_count(row_num);
 
-        const entry_percent = entry_count / cached_total_count;
+        const entry_percent = entry_count / read_total_count();
         write_entry_percent(row_num, lib_math_round(entry_percent * 100, 2));
         
-        const entry_parts = entry_percent * cached_page_count;
+        const entry_parts = entry_percent * read_page_count();
         write_entry_parts(row_num, lib_math_round(entry_parts, 4));
 
         const entry_units = algo_units(entry_parts, page_parts_cutoff);
@@ -66,7 +60,7 @@ function update_totals() {
 // create and load data objects
 
 function create_data_object() {
-    const data_object = {page_count: cached_page_count, items: []};
+    const data_object = {page_count: read_page_count(), items: []};
     
     for (let row_num = 1; row_num <= read_total_entries(); row_num++) {
         data_object.items.push(

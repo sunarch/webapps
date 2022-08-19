@@ -67,7 +67,6 @@ function write_page_count(new_value, prev_value = 1) {
     if (new_value < 1) {
         new_value = prev_value;
     }
-    cached_page_count = new_value;
     document.getElementById("page-count").value = new_value;
     update_all();
 }
@@ -146,14 +145,11 @@ function write_total_entries() {
     document.getElementById("total-entries").innerHTML = read_total_entries();
 }
 
-/*
-function read_total_count(new_value) {
+function read_total_count() {
     return Number(document.getElementById("total-count").innerHTML);
 }
-*/
 
 function write_total_count(new_value) {
-    cached_total_count = new_value;
     document.getElementById("total-count").innerHTML = new_value;
 }
 
@@ -169,13 +165,10 @@ function write_total_parts(new_value) {
     document.getElementById("total-parts").innerHTML = lib_math_round(new_value, 4);
 }
 
-/*
-function read_total_units(new_value) {
+function read_total_units() {
     return Number(document.getElementById("total-units").innerHTML);
 }
-*/
 
 function write_total_units(new_value) {
-    cached_total_units = new_value;
     document.getElementById("total-units").innerHTML = new_value;
 }
