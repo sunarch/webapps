@@ -57,45 +57,11 @@ function delete_all_entries() {
     update_all();
 }
 
-// DOM - read values
+// DOM - read/write general values
 
 function read_page_count(row_num) {
     return Number(document.getElementById("page-count").value);
 }
-
-function read_page_count_prev(row_num) {
-    return Number(document.getElementById("page-count").prev_value);
-}
-
-function read_total_entries() {
-    return document.getElementById("entries-container").childElementCount;
-}
-
-function read_entry_name(row_num) {
-    return document.getElementById("entry-" + row_num + "-name").value;
-}
-
-function read_entry_count(row_num) {
-    return Number(document.getElementById("entry-" + row_num + "-count").value);
-}
-
-function read_entry_count_prev(row_num) {
-    return Number(document.getElementById("entry-" + row_num + "-count").prev_value);
-}
-
-function read_entry_percent(row_num) {
-    return Number(document.getElementById("entry-" + row_num + "-percent").innerHTML);;
-}
-
-function read_entry_parts(row_num) {
-    return Number(document.getElementById("entry-" + row_num + "-parts").innerHTML);;
-}
-
-function read_entry_units(row_num) {
-    return Number(document.getElementById("entry-" + row_num + "-units").innerHTML);;
-}
-
-// DOM - write general values
 
 function write_page_count(new_value, prev_value = 1) {
     if (new_value < 1) {
@@ -106,15 +72,28 @@ function write_page_count(new_value, prev_value = 1) {
     update_all();
 }
 
+function read_page_count_prev(row_num) {
+    return Number(document.getElementById("page-count").prev_value);
+}
+
+
 function write_page_count_prev(new_value) {
     document.getElementById("page-count").prev_value = new_value;
 }
 
-// DOM - write entry values
+// DOM - read/write entry values
+
+function read_entry_name(row_num) {
+    return document.getElementById("entry-" + row_num + "-name").value;
+}
 
 function write_entry_name(row_num, new_value) {
     document.getElementById("entry-" + row_num + "-name").value = new_value;
     local_storage_save();
+}
+
+function read_entry_count(row_num) {
+    return Number(document.getElementById("entry-" + row_num + "-count").value);
 }
 
 function write_entry_count(row_num, new_value, prev_value = 0) {
@@ -125,40 +104,76 @@ function write_entry_count(row_num, new_value, prev_value = 0) {
     update_all();
 }
 
+function read_entry_count_prev(row_num) {
+    return Number(document.getElementById("entry-" + row_num + "-count").prev_value);
+}
+
 function write_entry_count_prev(row_num, new_value) {
     document.getElementById("entry-" + row_num + "-count").prev_value = new_value;
+}
+
+function read_entry_percent(row_num) {
+    return Number(document.getElementById("entry-" + row_num + "-percent").innerHTML);
 }
 
 function write_entry_percent(row_num, new_value) {
     document.getElementById("entry-" + row_num + "-percent").innerHTML = new_value;
 }
 
+function read_entry_parts(row_num) {
+    return Number(document.getElementById("entry-" + row_num + "-parts").innerHTML);
+}
+
 function write_entry_parts(row_num, new_value) {
     document.getElementById("entry-" + row_num + "-parts").innerHTML = new_value;
+}
+
+function read_entry_units(row_num) {
+    return Number(document.getElementById("entry-" + row_num + "-units").innerHTML);
 }
 
 function write_entry_units(row_num, new_value) {
     document.getElementById("entry-" + row_num + "-units").innerHTML = new_value;
 }
 
-// DOM - write totals
+// DOM - read/write totals
+
+function read_total_entries() {
+    return document.getElementById("entries-container").childElementCount;
+}
 
 function write_total_entries() {
     document.getElementById("total-entries").innerHTML = read_total_entries();
 }
+
+/*
+function read_total_count(new_value) {
+    return Number(document.getElementById("total-count").innerHTML);
+}
+*/
 
 function write_total_count(new_value) {
     cached_total_count = new_value;
     document.getElementById("total-count").innerHTML = new_value;
 }
 
+// read_total_percent not necessary
+
 function write_total_percent(new_value) {
     document.getElementById("total-percent").innerHTML = lib_math_round(new_value, 2);
 }
 
+// read_total_parts not necessary
+
 function write_total_parts(new_value) {
     document.getElementById("total-parts").innerHTML = lib_math_round(new_value, 4);
 }
+
+/*
+function read_total_units(new_value) {
+    return Number(document.getElementById("total-units").innerHTML);
+}
+*/
 
 function write_total_units(new_value) {
     cached_total_units = new_value;
