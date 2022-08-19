@@ -2,6 +2,8 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this
 // file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
+const predefs = {};
+
 predefs.latin_1_5 = {
     page_count: 39,
     items: [
@@ -65,4 +67,3 @@ predefs.magyar_latin_1_5 = {
         {name: 'z', count: 8}
     ]
 }
-
