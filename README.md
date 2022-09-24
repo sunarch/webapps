@@ -1,5 +1,6 @@
-# libweb
+# Web Tools
 
+miscellaneous web-based tools, libs and apps
 
 ### License
 
