@@ -1,8 +1,20 @@
-# Web Tools
+# webapps
 
-miscellaneous web-based tools, libs and apps
+- miscellaneous web-based tools, libs, apps
+- games playable in the browser
 
-### License
+## Tools
+
+- Distribution - specialized calculator
+- JS info
+
+## Games
+
+- Next Best Guess
+    - word guessing game
+    - inspired by [Wordle](https://www.powerlanguage.co.uk/wordle/)
+
+## License
 
 [Mozilla Public License 2.0](https://www.mozilla.org/en-US/MPL/2.0/)
 

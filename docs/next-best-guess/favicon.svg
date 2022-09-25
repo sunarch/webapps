@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="165.88524"
+       y="151.52292"
+       width="78.59805"
+       height="91.337527"
+       id="rect14935" />
+    <rect
+       x="308.40521"
+       y="40.626969"
+       width="59.426321"
+       height="79.835889"
+       id="rect11557" />
+    <rect
+       x="152.12975"
+       y="45.381397"
+       width="119.67858"
+       height="74.762218"
+       id="rect9659" />
+    <rect
+       x="47.496692"
+       y="30.563754"
+       width="57.705862"
+       height="42.973879"
+       id="rect6727" />
+    <rect
+       x="53.242988"
+       y="98.865676"
+       width="277.33531"
+       height="240.71381"
+       id="rect2453" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(2.9377325,0,0,2.50501,-156.05878,-260.18345)"
+       id="text2451"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Bandwidth BRK';-inkscape-font-specification:'Bandwidth BRK, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect2453);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="53.242188"
+         y="135.86523"
+         id="tspan1123">NBG</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text6725"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6727);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="47.496094"
+         y="108.92773"
+         id="tspan1125">N</tspan></text>
+  </g>
+</svg>
