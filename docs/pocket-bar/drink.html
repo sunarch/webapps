@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+<html>
+    <head>
+        <title>Drink view</title>
+        <!-- meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Németh András">
+        <meta name="description" content="Pocket Bar">
+        <meta name="keywords" content="Pocket Bar">
+        <meta name="copyright" content="© 2014 Németh András">
+        <!-- link tags -->
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" charset="UTF-8" href="css/style.css">
+        <!-- scripts -->
+        <script type="text/javascript" charset="UTF-8" src="js/main.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="js/dataindex.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="js/decorationlist.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="js/componentlist.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="js/productlist.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="js/drinklist.js"></script>
+        <script type="text/javascript" charset="UTF-8" src="js/DrinkClass.js"></script>
+        <script>
+            includeJS("js/drinks/" + getCurrentDrinkRefId() + ".js");
+        </script>
+    </head>
+    <body onLoad="fillDrinkView()" >
+        <header id="header">
+            <h1>Pocket Bar</h1>
+            <nav></nav>
+        </header>
+        <div id="main">
+            <section>
+                <section id="section_pocketbar_drink"" >
+                    <div id="drink_name" class="blockSectionHeader" ><!-- Dynamic content creation --></div>
+                </section>
+                <section id="box_pocketbar_picture" >
+                    <img id="drink_picture" style="width: 100%; height: auto;" src="" alt="Drink Picture" />
+                </section>
+                <section>
+                    <div class="textSectionHeader" >Ital típusa:&#160;&#160;</div>
+                    <div id="drink_type" class="pocketbarValue" ><!-- Dynamic content creation --></div>
+                    <div class="textSectionHeader" >Alap:&#160;&#160;</div>
+                    <div id="drink_basecomponent" class="pocketbarValue" ><!-- Dynamic content creation --></div>
+                    <div class="textSectionHeader" >Pohár:&#160;&#160;</div>
+                    <div id="drink_glass" class="pocketbarValue" ><!-- Dynamic content creation --></div>
+                </section>
+                <section>
+                    <div class="textSectionHeader" >Összetevők:</div>
+                    <p id="drink_ingredientList_container" class="pocketbarValue" >
+                        <ul id="drink_ingredientList" ><!-- Dynamic content creation --></ul>
+                    </p>
+                </section>
+                <section>
+                    <div class="textSectionHeader" >Elkészítés:</div>
+                    <p id="drink_preparation" class="pocketbarValue" ><!-- Dynamic content creation --></p>
+                </section>
+                <section>
+                    <div class="textSectionHeader" >Dekoráció:</div>
+                    <p id="drink_decorationList_container" class="pocketbarValue" >
+                        <ul id="drink_decorationList" ><!-- Dynamic content creation --></ul>
+                    </p>
+                </section>
+                <section>
+                    <div class="textSectionHeader" >Megjegyzések:</div>
+                    <p id="drink_commentList_container" class="pocketbarValue" >
+                        <ul id="drink_commentList" ><!-- Dynamic content creation --></ul>
+                    </p>
+                </section>
+                <section>
+                    <div class="textSectionHeader" >Szükséges eszközök:</div>
+                    <p id="drink_toolList_container" class="pocketbarValue" >
+                        <ul id="drink_toolList" ><!-- Dynamic content creation --></ul>
+                    </p>
+                </section>
+                <section>
+                    <div class="textSectionHeader" >Történet:</div>
+                    <p id="drink_history" class="pocketbarValue" ><!-- Dynamic content creation --></p>
+                </section>
+            </section>
+        </div>
+        <footer id="footer">Copyright &copy; 2014-2022 sunarch</footer>
+    </body>
+</html>
+

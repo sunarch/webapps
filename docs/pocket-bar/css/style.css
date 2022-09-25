@@ -1,0 +1,365 @@
+@charset "UTF-8";
+
+/*
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+*/
+
+*, *:before, *:after {
+    clear: both;
+    box-sizing: border-box;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+
+}
+html, body, nav {
+    width: auto;
+    display: block;
+}
+header, #main, section, footer {
+    width: 100%;
+    display: block;
+}
+aside, article, hgroup {
+    display: none;
+}
+
+html {
+    position: relative;
+    margin: 0pt;
+    background-color: #000;
+    background-image: url('../images/qui-nguyen-Zrp9b3PMIy8-unsplash.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    padding: 0pt;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /*font-family: Georgia, serif;*/
+    /*font-family: "Times New Roman", Times, serif;*/
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    /*font-family: "Comic Sans MS", cursive, sans-serif;*/
+    /*font-family: Tahoma, Geneva, sans-serif;*/
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+    margin-top: 15pt;
+    margin-bottom: 10pt;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: transparent;
+    background-image: none;
+    background-position: center top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+
+    padding: 0pt;
+    overflow-x: hidden;
+    overflow-y: visible;
+
+    /* position: relative; */
+    /* width | big: 976pt | small: 400pt */
+    height: auto;
+}
+
+a, a:link, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, a:visited:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    z-index: 1;
+}
+nav {
+    margin-top: 0pt;
+    margin-bottom: 15pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    padding: 0pt;
+    height: auto;
+}
+nav ul {
+    display: block;
+    margin: 0pt;
+    padding: 0pt;
+    width: auto;
+    height: auto;
+    text-align: left;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    position: relative;
+    top: 0pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    margin-left: 0pt;
+    margin-right: 10pt;
+    box-shadow: 0 0 10pt #999;
+    border-radius: 5pt;
+    padding-top: 12pt;
+    padding-bottom: 12pt;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bgWhiteTransparent9, header, #main, footer {
+    background: rgba(255, 255, 255, 0.9); /* background transparency instead of element opacity */
+}
+.bgWhiteTransparent0, header *, #main div, section, footer *, nav li {
+    background: rgba(255, 255, 255, 0); /* background transparency instead of element opacity */
+}
+
+#main {
+    z-index: 2;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    padding: 0pt;
+}
+
+header, section, footer {
+    position: relative;
+    top: 0pt;
+
+    margin-top: 0pt;
+    margin-bottom: 12pt;
+
+    padding-top: 8pt;
+    padding-bottom: 8pt;
+    padding-left: 8pt;
+    padding-right: 8pt;
+
+    overflow: hidden;
+    box-shadow: 0 0 10pt #bbb;
+}
+
+#main section section, aside section section, footer section {
+    margin-bottom: 0pt;
+    box-shadow: 0 0 0 #bbb;
+    border-radius: 0pt;
+    padding: 5pt;
+}
+
+.menu_box_v1_title {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding: 0pt;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.menu_box_v1_container { /* UL */
+    margin: 0pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 35pt;
+    padding-right: 0pt;
+    list-style-type: disc;
+}
+li.menu_box_v1_element {
+    display: list-item;
+    width: auto;
+    height: auto;
+}
+a.menu_box_v1_element {
+    width: 100%;
+    height: 100%;
+}
+
+.menu_box_v2_title {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    font-size: 18pt;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.menu_box_v2_container { /* UL */
+    margin: 0pt;
+    padding-top: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    list-style-type: none;
+}
+li.menu_box_v2_element {
+    display: block;
+    margin: 0pt;
+    border: 0pt;
+    padding-top: 5pt;
+    padding-bottom: 0pt;
+    padding-left: 15pt;
+    padding-right: 5pt;
+    width: auto;
+    height: auto;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 16pt;
+    font-weight: bold;
+}
+a.menu_box_v2_element {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    margin-top: 20pt !important;
+    text-align: center;
+    font-size: 11pt;
+}
+
+
+#box_pocketbar_picture {
+    text-align: center;
+}
+#drink_picture {
+    background: rgba(255, 255, 255, 1); /* background transparency instead of element opacity */
+}
+
+section section {
+    margin-top: 0pt;
+    margin-bottom: 20pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    padding: 0pt;
+    width: 100%;
+}
+div.column {
+    display: inline-block;
+    margin-right: 40pt;
+}
+div.blockSectionHeader {
+    display: block;
+    margin-top: 0pt;
+    margin-bottom: 14pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    font-size: 20pt;
+    font-weight: bold;
+}
+div.textSectionHeader {
+    display: block;
+    margin-top: 0pt;
+    margin-bottom: 7pt;
+    margin-left: 0pt;
+    margin-right: 0pt;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.pocketbarValue {
+    text-indent: 20pt;
+    /* font-size: 12pt; */
+    font-size: medium;
+}
+select.pocketbarSearch {
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,div  { white-space: normal; }
+
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    margin-top: 5pt;
+    margin-bottom: 20pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding: 0pt;
+}
+h2 {
+    font-size: 20pt;
+    font-weight: bold;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding: 0pt;
+}
+h3 {
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 5pt;
+    margin-bottom: 10pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding: 0pt;
+}
+
+.fieldLabel {
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding: 0pt;
+}
+
+input.textField {
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 8pt;
+    padding-right: 8pt;
+    width: 100%;
+    height: auto;
+}
+
+input.button {
+    display: block;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 3pt;
+    margin-bottom: 3pt;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 15pt;
+    padding-right: 15pt;
+    width: 100%;
+    height: auto;
+}
+
+.red { color: red; }
+.textCenter { text-align: center !important; }
+.b { font-weight: bold; }
+.j { text-align: justify; }
+
