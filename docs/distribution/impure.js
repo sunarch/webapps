@@ -92,5 +92,10 @@ function local_storage_save() {
 
 function local_storage_load() {
     const data_object = lib_storage_local_load_json(settings.local_storage_key);
-    load_data_object(data_object);
+    if (data_object == null) {
+        write_page_count(1);
+    }
+    else {
+        load_data_object(data_object);
+    }
 }
