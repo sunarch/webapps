@@ -1,0 +1,292 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" >
+<!-- 0, 128, 256, 384, 512, 640, 768, 896, 1024, 1152,
+     1280, 1408, 1536, 1664, 1792, 1920, 2048, 2176, 2304, 2432 -->
+
+<!-- https://dynmap.avalion.hu/tiles/world/flat/ -->
+
+    <script type="text/javascript">
+      <![CDATA[
+        //function changerect(evt) {
+            //var svgobj=evt.target;
+            //svgobj.style.opacity= 0.3;
+            //svgobj.setAttribute ('x', 300);
+        //}
+
+        function tileClicked(evt) {
+            infoBoxElements = document.getElementById("info-box").children;
+            infoBoxElements[1].innerHtml = "coodinates: x/z"
+            infoBoxElements[2].innerHtml = "type: ???";
+            infoBoxElements[3].innerHtml = "owner: ???";
+
+            document.getElementById("chunk-coordinates").innerHtml = "coodinates: x/z"
+            document.getElementById("chunk-type").innerHtml = "type: ???";
+            document.getElementById("chunk-owner").innerHtml = "owner: ???";
+        }
+      ]]>
+    </script>
+
+    <style type="text/css" >
+      <![CDATA[
+
+        line.grid {
+            stroke: #DDDDDD;
+            stroke-opacity: 0.5;
+        }
+        line.gridEdge {
+            stroke-width: 1;
+        }
+        line.gridMiddle {
+            stroke-width: 1;
+        }
+
+        rect.overlay {
+            width: 64px;
+            height: 64px;
+            stroke: #FFFFFF;
+            fill: #FFFFFF;
+            fill-opacity: 0;
+            stroke-opacity: 0;
+        }
+
+        image.tile {
+            width: 128px;
+            height: 128px;
+        }
+
+      ]]>
+    </style>
+
+    <!-- ################################################################### -->
+    <!-- x: -1406 / -1405 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="0" y="0" class="tile" xlink:href="-22_-16/-703_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="0" y="128" class="tile" xlink:href="-22_-16/-703_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="0" y="256" class="tile" xlink:href="-22_-16/-703_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="0" y="384" class="tile" xlink:href="-22_-16/-703_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="0" y="512" class="tile" xlink:href="-22_-16/-703_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="0" y="640" class="tile" xlink:href="-22_-16/-703_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="0" y="768" class="tile" xlink:href="-22_-16/-703_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1404 / -1403 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="128" y="0" class="tile" xlink:href="-22_-16/-702_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="128" y="128" class="tile" xlink:href="-22_-16/-702_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="128" y="256" class="tile" xlink:href="-22_-16/-702_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="128" y="384" class="tile" xlink:href="-22_-16/-702_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="128" y="512" class="tile" xlink:href="-22_-16/-702_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="128" y="640" class="tile" xlink:href="-22_-16/-702_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="128" y="768" class="tile" xlink:href="-22_-16/-702_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1402 / -1401 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="256" y="0" class="tile" xlink:href="-22_-16/-701_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="256" y="128" class="tile" xlink:href="-22_-16/-701_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="256" y="256" class="tile" xlink:href="-22_-16/-701_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="256" y="384" class="tile" xlink:href="-22_-16/-701_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="256" y="512" class="tile" xlink:href="-22_-16/-701_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="256" y="640" class="tile" xlink:href="-22_-16/-701_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="256" y="768" class="tile" xlink:href="-22_-16/-701_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1400 / -1399 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="384" y="0" class="tile" xlink:href="-22_-16/-700_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="384" y="128" class="tile" xlink:href="-22_-16/-700_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="384" y="256" class="tile" xlink:href="-22_-16/-700_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="384" y="384" class="tile" xlink:href="-22_-16/-700_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="384" y="512" class="tile" xlink:href="-22_-16/-700_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="384" y="640" class="tile" xlink:href="-22_-16/-700_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="384" y="768" class="tile" xlink:href="-22_-16/-700_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1398 / -1397 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="512" y="0" class="tile" xlink:href="-22_-16/-699_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="512" y="128" class="tile" xlink:href="-22_-16/-699_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="512" y="256" class="tile" xlink:href="-22_-16/-699_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="512" y="384" class="tile" xlink:href="-22_-16/-699_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="512" y="512" class="tile" xlink:href="-22_-16/-699_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="512" y="640" class="tile" xlink:href="-22_-16/-699_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="512" y="768" class="tile" xlink:href="-22_-16/-699_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1396 / -1395 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="640" y="0" class="tile" xlink:href="-22_-16/-698_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="640" y="128" class="tile" xlink:href="-22_-16/-698_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="640" y="256" class="tile" xlink:href="-22_-16/-698_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="640" y="384" class="tile" xlink:href="-22_-16/-698_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="640" y="512" class="tile" xlink:href="-22_-16/-698_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="640" y="640" class="tile" xlink:href="-22_-16/-698_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="640" y="768" class="tile" xlink:href="-22_-16/-698_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1394 / -1393 (oszlop) --> <!-- contains home block -->
+
+    <!-- z: 998 / 999 -->
+    <image x="768" y="0" class="tile" xlink:href="-22_-16/-697_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="768" y="128" class="tile" xlink:href="-22_-16/-697_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="768" y="256" class="tile" xlink:href="-22_-16/-697_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="768" y="384" class="tile" xlink:href="-22_-16/-697_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="768" y="512" class="tile" xlink:href="-22_-16/-697_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="768" y="640" class="tile" xlink:href="-22_-16/-697_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="768" y="768" class="tile" xlink:href="-22_-16/-697_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1392 / -1391 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="896" y="0" class="tile" xlink:href="-22_-16/-696_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="896" y="128" class="tile" xlink:href="-22_-16/-696_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="896" y="256" class="tile" xlink:href="-22_-16/-696_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="896" y="384" class="tile" xlink:href="-22_-16/-696_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="896" y="512" class="tile" xlink:href="-22_-16/-696_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="896" y="640" class="tile" xlink:href="-22_-16/-696_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="896" y="768" class="tile" xlink:href="-22_-16/-696_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1390 / -1389 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="1024" y="0" class="tile" xlink:href="-22_-16/-695_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="1024" y="128" class="tile" xlink:href="-22_-16/-695_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="1024" y="256" class="tile" xlink:href="-22_-16/-695_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="1024" y="384" class="tile" xlink:href="-22_-16/-695_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="1024" y="512" class="tile" xlink:href="-22_-16/-695_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="1024" y="640" class="tile" xlink:href="-22_-16/-695_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="1024" y="768" class="tile" xlink:href="-22_-16/-695_-506.png" />
+
+    <!-- ################################################################### -->
+    <!-- x: -1388 / -1387 (oszlop) -->
+
+    <!-- z: 998 / 999 -->
+    <image x="1152" y="0" class="tile" xlink:href="-22_-16/-694_-500.png" />
+    <!-- z: 1000 / 1001 -->
+    <image x="1152" y="128" class="tile" xlink:href="-22_-16/-694_-501.png" />
+    <!-- z: 1002 / 1003 --> <!-- x/z: -1394 / 1002 = home block -->
+    <image x="1152" y="256" class="tile" xlink:href="-22_-16/-694_-502.png" />
+    <!-- z: 1004 / 1005 -->
+    <image x="1152" y="384" class="tile" xlink:href="-22_-16/-694_-503.png" />
+    <!-- z: 1006 / 1007 -->
+    <image x="1152" y="512" class="tile" xlink:href="-22_-16/-694_-504.png" />
+    <!-- z: 1008 / 1009 -->
+    <image x="1152" y="640" class="tile" xlink:href="-22_-16/-694_-505.png" />
+    <!-- z: 1010/ 1011 -->
+    <image x="1152" y="768" class="tile" xlink:href="-22_-16/-694_-506.png" />
+
+
+    <!-- ################################################################### -->
+
+
+    <rect id="128-128" x="128" y="128" class="overlay" />
+
+
+    <!-- vonalak -->
+
+    <!-- vízszintes -->
+    <line x1="0" y1="0"   x2="1280" y2="0"   class="grid gridEdge" />
+    <line x1="0" y1="64"  x2="1280" y2="64"  class="grid gridMiddle" />
+    <line x1="0" y1="128" x2="1280" y2="128" class="grid gridMiddle" />
+    <line x1="0" y1="192" x2="1280" y2="192" class="grid gridMiddle" />
+    <line x1="0" y1="256" x2="1280" y2="256" class="grid gridMiddle" />
+    <line x1="0" y1="320" x2="1280" y2="320" class="grid gridMiddle" />
+    <line x1="0" y1="384" x2="1280" y2="384" class="grid gridMiddle" />
+    <line x1="0" y1="448" x2="1280" y2="448" class="grid gridMiddle" />
+    <line x1="0" y1="512" x2="1280" y2="512" class="grid gridMiddle" />
+    <line x1="0" y1="576" x2="1280" y2="576" class="grid gridMiddle" />
+    <line x1="0" y1="640" x2="1280" y2="640" class="grid gridMiddle" />
+    <line x1="0" y1="704" x2="1280" y2="704" class="grid gridMiddle" />
+    <line x1="0" y1="768" x2="1280" y2="768" class="grid gridMiddle" />
+    <line x1="0" y1="832" x2="1280" y2="832" class="grid gridMiddle" />
+    <line x1="0" y1="896" x2="1280" y2="896" class="grid gridEdge" />
+
+    <!-- függőleges -->
+    <line x1="0"    y1="0" x2="0"    y2="896" class="grid gridEdge" />
+    <line x1="64"   y1="0" x2="64"   y2="896" class="grid gridMiddle" />
+    <line x1="128"  y1="0" x2="128"  y2="896" class="grid gridMiddle" />
+    <line x1="192"  y1="0" x2="192"  y2="896" class="grid gridMiddle" />
+    <line x1="256"  y1="0" x2="256"  y2="896" class="grid gridMiddle" />
+    <line x1="320"  y1="0" x2="320"  y2="896" class="grid gridMiddle" />
+    <line x1="384"  y1="0" x2="384"  y2="896" class="grid gridMiddle" />
+    <line x1="448"  y1="0" x2="448"  y2="896" class="grid gridMiddle" />
+    <line x1="512"  y1="0" x2="512"  y2="896" class="grid gridMiddle" />
+    <line x1="576"  y1="0" x2="576"  y2="896" class="grid gridMiddle" />
+    <line x1="640"  y1="0" x2="640"  y2="896" class="grid gridMiddle" />
+    <line x1="704"  y1="0" x2="704"  y2="896" class="grid gridMiddle" />
+    <line x1="768"  y1="0" x2="768"  y2="896" class="grid gridMiddle" />
+    <line x1="832"  y1="0" x2="832"  y2="896" class="grid gridMiddle" />
+    <line x1="896"  y1="0" x2="896"  y2="896" class="grid gridMiddle" />
+    <line x1="960"  y1="0" x2="960"  y2="896" class="grid gridMiddle" />
+    <line x1="1024" y1="0" x2="1024" y2="896" class="grid gridMiddle" />
+    <line x1="1088" y1="0" x2="1088" y2="896" class="grid gridMiddle" />
+    <line x1="1152" y1="0" x2="1152" y2="896" class="grid gridMiddle" />
+    <line x1="1216" y1="0" x2="1216" y2="896" class="grid gridMiddle" />
+    <line x1="1280" y1="0" x2="1280" y2="896" class="grid gridEdge" />
+
+    <!-- teszt határ -->
+    <line x1="128" y1="128" x2="256" y2="128" style="stroke: #FF9900; stroke-width: 3;"/>
+
+</svg>

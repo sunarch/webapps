@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
+<html>
+    <head>
+        <title>Zsermánia - Térkép</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id="info-box" class="info-box" >
+            <div>chunk info:</div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <div class="container" >
+            <object id="map-object" type="image/svg+xml" data="zsermania.svg" width="1280" height="896" >
+                <!--<param name="src" value="zsermania.svg">-->
+            </object>
+        </div>
+        <!-- other method: embed
+        <div class="container" >
+            <embed name="zs" id="zs-embed" src="zsermania.svg" width="1280" height="896">
+        </div>
+         -->
+        <!-- other method: img -- not compatible with all browsers!
+        <div class="container" >
+            <img id="zs-img" src="zsermania.svg" width="1280" height="896"/>,
+        </div>
+        -->
+    </body>
+</html>
