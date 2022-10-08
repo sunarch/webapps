@@ -1,4 +1,9 @@
 <!doctype html>
+<!--
+This Source Code Form is subject to the terms of the Mozilla Public
+License, v. 2.0. If a copy of the MPL was not distributed with this
+file, You can obtain one at http://mozilla.org/MPL/2.0/.
+-->
 <html lang="en">
     <head>
         <meta charset="utf-8">
@@ -19,17 +24,16 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="style.css?v=1.0">
+        
+        <script src="js/main.js"></script>
+        <script src="js/hexagon.js"></script>
+        <script src="js/canvas.js"></script>
+        <script src="js/event-handlers.js"></script>
     </head>
-    <body>
-        <header>
-            <div>Resourcerer</div>
-        </header>
-        <div id="main">
-
+    <body onload="eh_load()" onresize="eh_resize()" oncontextmenu="return false;">
+        <div id="r-wrapper">
+            <canvas id="r-canvas"></canvas>
         </div>
-        <footer>
-            <div>Resourcerer v0.0.1</div>
-        </footer>
-        <script src="js/script.js"></script>
+        <script src="js/events.js"></script>
     </body>
 </html>
