@@ -81,8 +81,11 @@ class Hexagon {
         context.lineTo(this.x_outer_left, this.y_mid);
         // top left
         context.lineTo(this.x_inner_left, this.y_top);
-        // draw
         context.closePath();
+        // fill
+        context.fillStyle = "white";
+        context.fill();
+        // draw
         context.stroke();
     }
 }
